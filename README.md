@@ -1,0 +1,9 @@
+FULL NAME: BETTY BADA
+
+EMAIL ADDRESS: Badabee440@gmail.com
+
+SLACK USERNAME: BETTY BADA
+
+TRACKS: Front End
+
+COURSES: HTML, CSS and JavaScript
