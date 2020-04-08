@@ -1,0 +1,79 @@
+body{
+    background-color: #ADD8E6;
+}
+
+.logo{
+    text-align: center;
+}
+
+.piggy{
+   display: inline-block;
+ 
+}
+
+.container{
+    background-color: whitesmoke;
+    margin: auto;
+    width: 38%;
+    padding: 0.2rem;
+    border-bottom-right-radius: 1.25em;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+
+.secure{
+    color: #ADD8E6;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+.details{
+    margin-top: 2rem;
+    margin-bottom: 0;
+
+}
+
+.save{
+    font-size: 15px;
+    color: #4a5568;
+    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 2rem;
+
+}
+
+.item{
+    font-size: 0.75rem;
+    margin-bottom: 0.25rem;
+    line-height: 2;
+    font-weight: 700;
+    color: #4a5568;
+}
+
+.enter{
+    color: #1a202c;
+    outline: 0;
+    padding: 0.75rem 0.5rem 0.75rem 0.75rem;
+    background-color: #edf2f7;
+}
