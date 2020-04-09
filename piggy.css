@@ -38,7 +38,9 @@ header{
 
 .details{
     margin-top: 2rem;
+    margin: auto;
     margin-bottom: 0;
+    width: 90%;
 
 }
 
@@ -64,7 +66,7 @@ header{
 }
 
 .item{
-    font-size: 0.75rem;
+    font-size: 15px;
     margin-bottom: 0.25rem;
     line-height: 2;
     font-weight: 700;

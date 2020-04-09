@@ -19,7 +19,7 @@
         <h1 class="secure">Create a secure account</h1>
         <p class="save">Welcome to the future of Savings & Investments</p>
     </header>
-
+    <div class="gone">
     <div class="info">
     <label class="item" for="fname">Full name:</label><br>
     <input class="enter" type="text" placeholder="Full Name" id="fname" name="fname"><br>
@@ -46,9 +46,18 @@
     </div>
     
     <div class="info">
-    <label class="item" for="dropdown">How did you hear about us (Optional):</label><br>
-    <input class="enter" type="dropdown" placeholder="Email Address" id="lname" name="lname"><br>
+    <label class="item" for="dropdown" placeholder="Click To Select">How did you hear about us (Optional):</label><br>
+    <select class="enter">
+        <option>Click to Select</option>
+        <option value="volvo">Facebook</option>
+        <option value="saab">Twitter</option>
+        <option value="mercedes">Instagram</option>
+        <option value="audi">Friend/Family/Co-Worker/Referral</option>
+        <option>Google Search</option>
+        <option>Google Playstore</option> 
+      </select>
     </div>
+</div>
 
 </form>
 
