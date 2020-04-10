@@ -8,17 +8,20 @@ body{
 
 .piggy{
    display: inline-block;
- 
+}
+
+.piggyv{
+    display: none;
 }
 
 .container{
     background-color: white;
     margin: auto;
     width: 38%;
-    padding: 0.2rem;
-    border-bottom-right-radius: 1.25em;
-    border-top-left-radius: 1.25rem;
-    border-top-right-radius: 1.25rem;
+    padding: 3.2px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .secure{
@@ -34,11 +37,11 @@ header{
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 2rem auto;
+    margin: 32px auto;
 }
 
 .details{
-    margin-top: 2rem;
+    margin-top: 32px;
     margin: auto;
     margin-bottom: 0;
     width: 90%;
@@ -51,8 +54,8 @@ header{
     margin: 0;
     font-family: sans-serif;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -61,7 +64,7 @@ header{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .item{
@@ -75,7 +78,7 @@ header{
 .enter{
     color: #1a202c;
     outline: 0;
-    padding: 0.75rem 0.5rem 0.75rem 0.75rem;
+    padding: 12px 8px 12px 12px;
     background-color: #edf2f7;
 }
 
@@ -92,13 +95,29 @@ header{
 
 .login{
     text-align: center;
-    margin-top: 2rem;
-    padding: 0.25rem 0.75rem;
+    margin-top: 32px;
+    padding: 4px 12px;
     text-decoration: none;
     color: black;
 }
 
 /*MEDIA QUERY*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 568px) {
+    .piggy{
+        display: none;
+     }
+     
+     .piggyv{
+         display: inline-block;
+     }
 
+     .container{
+        background-color: white;
+        margin: auto;
+        width: 80%;
+        padding: 3.2px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
 }
