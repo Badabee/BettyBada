@@ -28,7 +28,7 @@ body{
     color: #ADD8E6;
     text-align: center;
     font-weight: 700;
-    font-family: sans-serif;
+    font-family: 'Karla', sans-serif;
     margin: 0;
     font-size: 24px;
 }
@@ -50,7 +50,7 @@ header{
     color: #4a5568;
     text-align: center;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Karla', sans-serif;
     display: block;
     margin-block-start: 16px;
     margin-block-end: 16px;
@@ -67,6 +67,7 @@ header{
 
 .item{
     font-size: 14px;
+    font-family: 'Karla', sans-serif;
     margin: 0px 0px 5px;
     line-height: 0.2;
     font-weight: 700;
@@ -102,13 +103,16 @@ header{
 /*MEDIA QUERY*/
 @media screen and (max-width: 400px) {
     .secure{
-        font-size: 16px;
+        font-size: 20px;
     }
     .save{
-        font-size: 12px;
+        font-size: 16px;
     }
     .item{
         font-size: 11px;
+    }
+    .container{
+        width: 90%;  
     }
 }
 
@@ -122,12 +126,6 @@ header{
      }
 
      .container{
-        background-color: white;
-        margin: auto;
-        width: 80%;
-        padding: 3.2px;
-        border-bottom-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        width: 80%;  
     }
 }
