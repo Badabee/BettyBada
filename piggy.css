@@ -41,9 +41,7 @@ header{
 }
 
 .details{
-    margin-top: 32px;
-    margin: auto;
-    margin-bottom: 0;
+    margin:32px auto 0 auto;
     width: 90%;
 }
 
@@ -102,6 +100,18 @@ header{
 }
 
 /*MEDIA QUERY*/
+@media screen and (max-width: 400px) {
+    .secure{
+        font-size: 16px;
+    }
+    .save{
+        font-size: 12.5px;
+    }
+    .item{
+        font-size: 12.5px;
+    }
+}
+
 @media screen and (max-width: 568px) {
     .piggy{
         display: none;
